@@ -26,10 +26,11 @@ const Signup = () => {
                     <div className="">
                         <img height="46" width="46" src="./src/assets/profits.png" alt=""/>
                     </div>
-                    <div>         <span className="login-form-title">
-                            Market Share Regional 
-                        </span></div>
-               
+                        <div>   
+                            <span className="login-form-title">
+                                Market Share Regional 
+                            </span>
+                        </div> 
                     </div>
 
            </header>
@@ -54,6 +55,7 @@ const Signup = () => {
                     </div>
                     <div className="wrap-input">
                         <input 
+                        
                         /*className={email !== "" ? 'has-val input' : 'input'}
                         type="email" 
                         value={email}
@@ -89,7 +91,7 @@ const Signup = () => {
                         value={cpf}
                         onChange={e => setCPF(e.target.value)}
                             */
-                        />
+                        />  
                         <span className="focus-input" data-placeholder="CPF"></span>
                     </div>
                     <div className="wrap-input">
