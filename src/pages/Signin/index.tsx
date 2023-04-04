@@ -10,7 +10,7 @@ const Signin = () => {
     
     return (
         <div className="container-login">
-            <header className="h-42 p-6 rounded-lg bg-green-700">
+            <header className="h-42 p-6 rounded-lg mx-8 bg-green-700">
                 <div className="col-span-3 flex items-center justify-center">
                         <span className="login-form-title">
                             Market ShareRegional 

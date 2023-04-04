@@ -7,9 +7,7 @@ function Header() {
             <header>
                 <h1>Header do site </h1>
                 <nav>
-                    <Link to="/">Home</Link>
-                    <Link to="/Signin">Login</Link>
-                    <Link to="/Signup">Cadastre-se</Link>
+                    <Link to="/Home">Home</Link>
                 </nav>
             </header>
         </div>

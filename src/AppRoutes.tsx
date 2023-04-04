@@ -8,8 +8,8 @@ const AppRoutes = () => {
     return (
         <Router>
             <Routes>
+                <Route path="/" element={<Signin/>}/>
                 <Route path="/Home" element={<Home/>}/>
-                <Route path="/Signin" element={<Signin/>}/>
                 <Route path="/Signup" element={<Signup/>}/>
             </Routes>
         </Router>
